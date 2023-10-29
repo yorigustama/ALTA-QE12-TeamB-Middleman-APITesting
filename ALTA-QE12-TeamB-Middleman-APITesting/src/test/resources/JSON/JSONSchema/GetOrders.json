@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "order_id": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "grand_total": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "order_id",
+            "date",
+            "status",
+            "grand_total"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "order_id": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "grand_total": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "order_id",
+            "date",
+            "status",
+            "grand_total"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "order_id": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "grand_total": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "order_id",
+            "date",
+            "status",
+            "grand_total"
+          ]
+        }
+      ]
+    },
+    "code": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "code",
+    "message"
+  ]
+}

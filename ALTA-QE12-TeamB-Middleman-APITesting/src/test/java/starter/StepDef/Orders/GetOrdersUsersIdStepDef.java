@@ -10,9 +10,9 @@ public class GetOrdersUsersIdStepDef {
 
     @Steps
     GetOrdersUsersIdAPI getOrdersUsersIdAPI;
-    @Given("Get list orders user id")
-    public void getListOrdersUserId() {
-        getOrdersUsersIdAPI.setGetOrdersUsersId();
+    @Given("Get list orders user id {int}")
+    public void getListOrdersUserId(int id) {
+        getOrdersUsersIdAPI.setGetOrdersUsersId(id);
     }
 
     @When("Send request get list orders user id")

@@ -1,15 +1,19 @@
 package starter.StepDef.Orders;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import jnr.constants.Constant;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
+import starter.middleman.DummyJsonResponses;
 import starter.middleman.Orders.PostOrdersUsersAPI;
 import starter.utils.Constants;
 
 import java.io.File;
+
+import static org.hamcrest.Matchers.equalTo;
 
 public class PostAddOrdersUsersStepDef {
 
@@ -35,5 +39,11 @@ public class PostAddOrdersUsersStepDef {
     public void addOrdersUserWithJson(String jsonFile) {
         File json = new File(Constants.REQ_BODY+jsonFile);
         postOrdersUsersAPI.setPostOrdersUsers(json);
+    }
+
+    @And("Response body patch productId was {string} and productName was {string}")
+    public void responBodyPatchProductIdWasAndProductNameWas(String productId, String productName) {
+        SerenityRest.and().body(DummyJsonResponses.PRODUCT_ID, equalTo(productId));
+        SerenityRest.and().body(DummyJsonResponses.PRODUCT_NAME, equalTo(productName));
     }
 }

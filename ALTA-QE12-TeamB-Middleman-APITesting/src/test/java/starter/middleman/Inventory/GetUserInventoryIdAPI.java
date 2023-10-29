@@ -1,4 +1,4 @@
-package starter.middleman.Orders;
+package starter.middleman.Inventory;
 
 import io.restassured.http.ContentType;
 import net.serenitybdd.rest.SerenityRest;
@@ -8,17 +8,15 @@ import starter.utils.Constants;
 
 import java.io.File;
 
-public class GetOrdersUsersIdAPI {
-    public static String GET_ORDERS_USERS_ID = Constants.BASE_URL+"orders/users/{id}";
+public class GetUserInventoryIdAPI {
+    public static String GET_USER_INVENTORY_ID = Constants.BASE_URL+"users/inventory/{id}";
 
-//    public static String GET_LIST_USER_INVALID = Constants.BASE_URL+"orders"
 
     @Step("Put orders confirm id")
-    public void setGetOrdersUsersId(int id) {
+    public void setGetUserInventoryId(int id) {
         String TOKEN = PostLoginAdminAPI.setGetUserToken();
         SerenityRest.given()
                 .header("Authorization", "Bearer " + TOKEN)
                 .pathParam("id", id);
-
     }
 }
