@@ -8,17 +8,16 @@ import starter.utils.Constants;
 
 import java.io.File;
 
-public class GetOrdersUsersIdAPI {
-    public static String GET_ORDERS_USERS_ID = Constants.BASE_URL+"orders/users/{id}";
+public class PutOrdersDoneAPI {
 
-//    public static String GET_LIST_USER_INVALID = Constants.BASE_URL+"orders"
+    public static String PUT_ORDERS_DONE_ID = Constants.BASE_URL+"/orders/done/{id}";
 
-    @Step("Put orders confirm id")
-    public void setGetOrdersUsersId(int id) {
+    @Step("Put orders done")
+    public void setPutOrdersDoneId(File json, int id) {
         String TOKEN = PostLoginAdminAPI.setGetUserToken();
         SerenityRest.given()
                 .header("Authorization", "Bearer " + TOKEN)
-                .pathParam("id", id);
-
+                .pathParam("id", id)
+                .contentType(ContentType.JSON).body(json);
     }
 }

@@ -18,7 +18,7 @@ public class GetOrdersUsersStepDef {
     }
 
     @When("Send request get list orders")
-    public void sendRequestGetListOrders() {
+    public void sendRequestGetListOrders()                                                           {
         SerenityRest.when().get(GetOrdersUsersAPI.GET_ORDERS_USERS);
     }
 
