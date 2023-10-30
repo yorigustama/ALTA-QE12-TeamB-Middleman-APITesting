@@ -1,7 +1,6 @@
-@Tugas
+@Project
 Feature: ALTA QE BATCH 12 GROUP PROJECT 1
 
-  @Tugas
   Scenario: Get list admin with valid parameter page
     Given Get list orders admin incoming
     When Send request get list orders admin incoming

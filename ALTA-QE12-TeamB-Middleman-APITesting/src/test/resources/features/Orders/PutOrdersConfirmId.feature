@@ -1,6 +1,6 @@
-@Tugas
+@Project
 Feature: ALTA QE BATCH 12 GROUP PROJECT 1
-  @Tugas
+
   Scenario Outline: Put update user with valid json and user id
     Given Update user with json "PutOrdersConfirmId.json" and user id 6
     When Send request put orders confirm id
