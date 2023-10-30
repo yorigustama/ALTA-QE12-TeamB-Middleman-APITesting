@@ -1,7 +1,7 @@
-@Tugas
+@Project
 Feature: ALTA QE BATCH 12 GROUP PROJECT 1
 
-  @Tugas
+
   Scenario: Get list user with valid parameter page
     Given Get list inventory user
     When Send request get list inventory user

@@ -1,7 +1,6 @@
-@Tugas
+@Project
 Feature: ALTA QE BATCH 12 GROUP PROJECT 1
 
-  @Tugas
   Scenario Outline: Post Add inventory with valid json
     Given Add inventory admin with json "PostInventoryUser.json"
     When Send request post inventory admin
