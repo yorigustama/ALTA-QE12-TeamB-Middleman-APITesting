@@ -1,4 +1,4 @@
-@Login
+@Login @Project
 Feature: Login As a user i want to login and do something in this web
 
   Scenario: Login user with registered account and all field is valid
