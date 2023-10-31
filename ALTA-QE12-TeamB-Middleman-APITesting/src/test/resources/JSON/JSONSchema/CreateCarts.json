@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "product_id": {
+      "type": "integer"
+    },
+    "qty": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "product_id",
+    "qty"
+  ]
+}
