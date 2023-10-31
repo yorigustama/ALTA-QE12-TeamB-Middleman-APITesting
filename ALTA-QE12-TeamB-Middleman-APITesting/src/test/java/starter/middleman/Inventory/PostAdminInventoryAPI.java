@@ -17,6 +17,5 @@ public class PostAdminInventoryAPI {
         SerenityRest.given()
                 .header("Authorization", "Bearer " + TOKEN)
                 .contentType(ContentType.JSON).body(json);
-
     }
 }

@@ -1,6 +1,7 @@
 package starter.StepDef.Inventory;
 
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
@@ -21,4 +22,8 @@ public class GetAdminInventoryIdStepDef {
     }
 
 
+    @Then("Status code should be {int} not found")
+    public void statusCodeShouldBeNotFound(int notFound) {
+        SerenityRest.then().statusCode(notFound);
+    }
 }

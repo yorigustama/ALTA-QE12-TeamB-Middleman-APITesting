@@ -19,11 +19,11 @@ public class PostAddOrdersUsersStepDef {
 
     @Steps
     PostOrdersUsersAPI postOrdersUsersAPI;
-//    @Given("Create new user with json {string}")
-//    public void createNewUserWithJson(String jsonFile) {
-//        File json = new File(Constants.REQ_BODY+jsonFile);
-//        postOrdersUsersAPI.setPostOrdersUsers(json);
-//    }
+    @Given("Create new user with json {string}")
+    public void createNewUserWithJson(String jsonFile) {
+        File json = new File(Constants.REQ_BODY+jsonFile);
+        postOrdersUsersAPI.setPostOrdersUsers(json);
+    }
 
     @When("Send request post create new user")
     public void sendRequestPostCreateNewUser() {

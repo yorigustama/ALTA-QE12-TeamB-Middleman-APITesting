@@ -1,5 +1,5 @@
 @Project
-Feature: ALTA QE BATCH 12 GROUP PROJECT 1
+Feature: ALTA QE BATCH 12 CAPSTONE PROJECT MIDDLEMAN
 
   Scenario: Get list user with valid parameter page
     Given Get list orders user
