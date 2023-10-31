@@ -10,6 +10,9 @@ import java.io.File;
 public class PostLoginAdminAPI {
     public static String POST_LOGIN_ADMIN = Constants.BASE_URL+"login";
 
+    public static String POST_LOGIN_ADMIN_UNSUCCESS = Constants.BASE_URL+"login";
+
+
     @Step("Get user token")
     public static String setGetUserToken(){
         File json = new File(Constants.REQ_BODY+"LoginAdminAccountValid.json");
@@ -21,6 +24,14 @@ public class PostLoginAdminAPI {
     }
     @Step("Login")
     public static void setPostLoginUser(File json){
+        SerenityRest.given()
+                .contentType(ContentType.JSON)
+                .body(json);
+    }
+
+
+    @Step("Login user unsuccess")
+    public static void setPostLoginAdminUnsuccess(File json){
         SerenityRest.given()
                 .contentType(ContentType.JSON)
                 .body(json);

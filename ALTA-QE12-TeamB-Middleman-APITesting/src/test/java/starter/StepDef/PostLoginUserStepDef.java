@@ -1,6 +1,7 @@
 package starter.StepDef;
 
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
@@ -25,4 +26,8 @@ public class PostLoginUserStepDef {
         SerenityRest.when().post(PostLoginUserAPI.POST_LOGIN_USER);
     }
 
+    @Then("Status code should be {int} Badreq")
+    public void statusCodeShouldBeBadreq(int badReq) {
+        SerenityRest.then().statusCode(badReq);
+    }
 }

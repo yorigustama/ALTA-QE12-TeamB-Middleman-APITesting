@@ -1,0 +1,22 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 127,
+      "product_name": "batik123",
+      "unit": "12",
+      "stock": 9,
+      "price": 12,
+      "product_image": "https://storage.googleapis.com/altabucket/middleman/images/2023-10-2706:00:19-s3.jpg"
+    },
+    {
+      "id": 130,
+      "product_name": "asasa",
+      "unit": "12",
+      "stock": 12,
+      "price": 12,
+      "product_image": "https://storage.googleapis.com/altabucket/middleman/images/2023-10-2718:32:11-s3.jpg"
+    }
+  ],
+  "message": "get data success"
+}
