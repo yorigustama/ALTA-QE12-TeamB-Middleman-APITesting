@@ -1,16 +1,12 @@
 # ALTA-QE12-TeamB-Middleman-APITesting #
 
-Link Test Case Manual : (https://docs.google.com/spreadsheets/d/1cpNXLFxVTSTK8CHRYQ4Lqe9HrjXcOFSEtLOziQfAY9Y/edit#gid=0)
+Link Test Case Manual : (https://docs.google.com/spreadsheets/d/1cpNXLFxVTSTK8CHRYQ4Lqe9HrjXcOFSEtLOziQfAY9Y/edit?hl=id#gid=0)
 
 Gambar Report dan Coverag Test Overall
-![Screenshot 2023-10-31 233609](https://github.com/yorigustama/ALTA-QE12-TeamB-Middleman-APITesting/assets/50369208/3087ccd7-1052-4462-8302-69464b9e85b0)
-![photo_2023-10-31_17-39-59](https://github.com/yorigustama/ALTA-QE12-TeamB-Middleman-APITesting/assets/50369208/1c051a35-07a1-4693-bf9d-f52fbd285936)
-![photo_2023-10-31_17-15-15](https://github.com/yorigustama/ALTA-QE12-TeamB-Middleman-APITesting/assets/50369208/5b46bc72-c9a6-440e-8157-3b72c3fdf663)
+![photo_2023-10-31_16-44-18](https://github.com/yorigustama/ALTA-QE12-TeamB-Middleman-WebTesting/assets/50369208/8aedd729-b18b-4ed5-9602-5b8d55d0241e)
+![Screenshot 2023-10-31 232623](https://github.com/yorigustama/ALTA-QE12-TeamB-Middleman-WebTesting/assets/50369208/ef957e50-796e-4101-9681-345fd25d28cb)
 
-
-
-
-Tools & Technology Stack : Trello, Intelj, Spreadsheet, Postman 
+Tools & Technology Stack : Trello, Intelj, Spreadsheet 
 
 How To Run Project :
 
@@ -29,3 +25,4 @@ Team Member.
 Yori Fiandika
 Irma Wahyuni
 Eka Aprillia
+
