@@ -23,8 +23,8 @@ How To Run Project :
 3. Menjalankan Tes: mvn clean test
 4. Melihat Hasil Tes: Silakan buka sebuah issue atau hubungi maintainer repositori.
 
-Team Member.
-Yori Fiandika
-Irma Wahyuni
-Eka Aprillia
+Team Member :
+Yori Fiandika,
+Irma Wahyuni,
+Eka Aprillia.
 
