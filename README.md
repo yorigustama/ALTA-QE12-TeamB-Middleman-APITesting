@@ -14,7 +14,7 @@ How To Run Project :
 
 1. Prasyarat:
 * Git
-* JDK (Versi yang direkomendasikan: JDK 11)
+* JDK (Versi yang direkomendasikan: JDK 17)
 * Maven
 2. Mengklon Repositori:
 * Buka terminal atau command prompt.
