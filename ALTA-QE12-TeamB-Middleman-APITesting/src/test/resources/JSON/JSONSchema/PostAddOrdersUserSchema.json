@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "grand_total": {
+      "type": "integer"
+    },
+    "items": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "product_id": {
+              "type": "integer"
+            },
+            "product_name": {
+              "type": "string"
+            },
+            "qty": {
+              "type": "integer"
+            },
+            "unit": {
+              "type": "string"
+            },
+            "subtotal": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "product_id",
+            "product_name",
+            "qty",
+            "unit",
+            "subtotal"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "product_id": {
+              "type": "integer"
+            },
+            "product_name": {
+              "type": "string"
+            },
+            "qty": {
+              "type": "integer"
+            },
+            "unit": {
+              "type": "string"
+            },
+            "subtotal": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "product_id",
+            "product_name",
+            "qty",
+            "unit",
+            "subtotal"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "grand_total",
+    "items"
+  ]
+}
