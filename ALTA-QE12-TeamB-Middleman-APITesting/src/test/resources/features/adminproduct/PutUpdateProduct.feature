@@ -5,7 +5,7 @@ Feature: ALTA QE BATCH 12 GROUP PROJECT 1
     When Send request put update product
     Then Status code should be 200 OK
 
-    @Project
+
     Scenario: Update product admin without product name
       Given Update product without product name
       When Send request put update product

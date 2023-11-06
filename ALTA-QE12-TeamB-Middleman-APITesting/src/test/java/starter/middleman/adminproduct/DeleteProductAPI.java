@@ -2,7 +2,7 @@ package starter.middleman.adminproduct;
 
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
-import starter.middleman.PostLoginAdminAPI;
+import starter.middleman.Login.PostLoginAdminAPI;
 import starter.utils.Constants;
 
 public class DeleteProductAPI {

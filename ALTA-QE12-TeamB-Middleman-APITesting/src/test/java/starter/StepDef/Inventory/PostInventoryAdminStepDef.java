@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
-import starter.middleman.DummyJsonResponses;
+import starter.middleman.MiddlemanResponses;
 import starter.middleman.Inventory.PostAdminInventoryAPI;
 import starter.utils.Constants;
 
@@ -31,8 +31,8 @@ public class PostInventoryAdminStepDef {
 
     @And("Response body patch qty was {string} and unit was {string}")
     public void responseBodyPatchQtyWasAndLastNameWas(String qty, String unit) {
-        SerenityRest.and().body(DummyJsonResponses.QTY, equalTo(qty));
-        SerenityRest.and().body(DummyJsonResponses.UNIT, equalTo(unit));
+        SerenityRest.and().body(MiddlemanResponses.QTY, equalTo(qty));
+        SerenityRest.and().body(MiddlemanResponses.UNIT, equalTo(unit));
     }
 
     @And("Validate post create JSON schema {string}")

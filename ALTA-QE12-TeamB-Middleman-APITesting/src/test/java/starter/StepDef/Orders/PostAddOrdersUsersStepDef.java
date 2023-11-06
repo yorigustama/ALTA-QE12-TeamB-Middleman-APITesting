@@ -4,10 +4,9 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import jnr.constants.Constant;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
-import starter.middleman.DummyJsonResponses;
+import starter.middleman.MiddlemanResponses;
 import starter.middleman.Orders.PostOrdersUsersAPI;
 import starter.utils.Constants;
 
@@ -30,10 +29,10 @@ public class PostAddOrdersUsersStepDef {
         SerenityRest.when().post(PostOrdersUsersAPI.POST_ORDERS_USERS);
     }
 
-    @Then("Status code should be {int} Created")
-    public void statusCodeShouldBeOK(int created) {
-        SerenityRest.then().statusCode(created);
-    }
+//    @Then("Status code should be {int} Created")
+//    public void statusCodeShouldBeOK(int created) {
+//        SerenityRest.then().statusCode(created);
+//    }
 
     @Given("Add Orders user with json {string}")
     public void addOrdersUserWithJson(String jsonFile) {
@@ -43,7 +42,7 @@ public class PostAddOrdersUsersStepDef {
 
     @And("Response body patch productId was {string} and productName was {string}")
     public void responBodyPatchProductIdWasAndProductNameWas(String productId, String productName) {
-        SerenityRest.and().body(DummyJsonResponses.PRODUCT_ID, equalTo(productId));
-        SerenityRest.and().body(DummyJsonResponses.PRODUCT_NAME, equalTo(productName));
+        SerenityRest.and().body(MiddlemanResponses.PRODUCT_ID, equalTo(productId));
+        SerenityRest.and().body(MiddlemanResponses.PRODUCT_NAME, equalTo(productName));
     }
 }

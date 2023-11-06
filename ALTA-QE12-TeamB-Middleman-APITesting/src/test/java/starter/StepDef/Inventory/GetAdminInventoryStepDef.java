@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
-import starter.middleman.DummyJsonResponses;
+import starter.middleman.MiddlemanResponses;
 import starter.middleman.Inventory.GetAdminInventoryAPI;
 import starter.utils.Constants;
 
@@ -30,7 +30,7 @@ public class GetAdminInventoryStepDef {
 
     @And("Response body page should be {int}")
     public void responseBodyPageShouldBe(int page) {
-        SerenityRest.then().body(DummyJsonResponses.DATA_ID_ARRAY,equalTo(page));
+        SerenityRest.then().body(MiddlemanResponses.DATA_ID_ARRAY,equalTo(page));
     }
 
     @And("Validate get list user JSON schema {string}")

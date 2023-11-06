@@ -9,6 +9,8 @@ public class Constants {
     public static String REQ_BODY_POST_ADD_USERS = JSON+ "/JSON/ReqBody";
     public static String REQ_BODY = JSON + "/JSON/ReqBody/";
     public static String JSON_SCHEMA = JSON+"/JSON/JSONSchema/";
+    public static String IMAGE_FILE = DIR +"/src/test/resources/image/";
+
 
 
 

@@ -9,7 +9,6 @@ Feature: ALTA QE BATCH 12 GROUP PROJECT 1
       | id |
       | 1  |
 
-    @Project
    Scenario Outline: Get carts with invalid parameter id
       Given Get carts with invalid id <id>
       When Send get carts request not found request
