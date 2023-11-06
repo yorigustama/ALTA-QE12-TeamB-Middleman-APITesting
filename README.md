@@ -3,9 +3,7 @@
 Link Test Case Manual : (https://docs.google.com/spreadsheets/d/1cpNXLFxVTSTK8CHRYQ4Lqe9HrjXcOFSEtLOziQfAY9Y/edit?hl=id#gid=0)
 
 Gambar Report dan Coverag Test Overall
-![photo_2023-10-31_16-44-18](https://github.com/yorigustama/ALTA-QE12-TeamB-Middleman-WebTesting/assets/50369208/8aedd729-b18b-4ed5-9602-5b8d55d0241e)
-![Screenshot 2023-10-31 232623](https://github.com/yorigustama/ALTA-QE12-TeamB-Middleman-WebTesting/assets/50369208/ef957e50-796e-4101-9681-345fd25d28cb)
-![photo_2023-11-01_02-33-06](https://github.com/yorigustama/ALTA-QE12-TeamB-Middleman-APITesting/assets/50369208/a3a481c3-b783-45f0-abd7-ea28e20f5604)
+![Screenshot 2023-11-06 105454](https://github.com/yorigustama/ALTA-QE12-TeamB-Middleman-APITesting/assets/50369208/b968fef4-b259-4f3c-88e0-78b2053bf189)
 
 
 Tools & Technology Stack : Trello, Intelj, Spreadsheet 
